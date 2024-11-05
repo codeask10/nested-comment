@@ -33,6 +33,7 @@ const CommentsTree = ({ comments, addComment, deleteComment }) => {
                                 <input
                                     type="text"
                                     placeholder="Reply..."
+                                    autoFocus
                                     value={commentText}
                                     onChange={(e) => setCommentText(e.target.value)}
                                 />

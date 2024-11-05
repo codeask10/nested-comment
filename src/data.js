@@ -1,7 +1,7 @@
 export const initialData = [
     {
         id: 1,
-        text: 'Hello world! How are you?',
+        text: 'Hello Saquib! How are you?',
         replies: [
             {
                 id: 2,
